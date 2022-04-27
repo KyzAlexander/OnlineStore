@@ -1,4 +1,4 @@
-import { Basket, Like, User } from "../../assets/images/Icons";
+import { Basket, Likes, User } from "../../assets/images/Icons";
 import logo from "../../assets/images/logo.png";
 import "./header.scss";
 
@@ -18,7 +18,7 @@ export default function Header() {
           <span>1250 руб.</span>
         </li>
         <li>
-          <Like />
+          <Likes />
         </li>
         <li>
           <User />
