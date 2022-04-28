@@ -1,0 +1,33 @@
+.ListCards {
+    display: flex;
+    flex-direction: column;
+}
+.wrapperTitleAndSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    .wrapperTitleAndSearch__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #000000;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .wrapperTitleAndSearch__search{
+        border: 1px solid #e9e6e6;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+}
+.list {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: center;
+  align-items: flex-start;  
+}
