@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 20px 0;
-    .wrapperTitleAndSearch__title {
+    &__title {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
@@ -16,18 +16,27 @@
         color: #000000;
         margin: 0;
         margin-left: 20px;
-    }
-    .wrapperTitleAndSearch__search{
-        border: 1px solid #e9e6e6;
-        box-sizing: border-box;
-        border-radius: 10px;
-        margin-right: 20px;
+    }    
+}
+.wrapperTitleAndSearch__searchBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #e9e6e6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    .search{
+        border:  none;
+        opacity: 0.5;            
     }
 }
+
 .list {
     display: flex;
     flex-flow: row wrap;
-
     justify-content: center;
-  align-items: flex-start;  
+    align-items: flex-start;  
 }
