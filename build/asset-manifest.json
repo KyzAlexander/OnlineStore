@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/OnlineStore/static/css/main.f949be13.css",
+    "main.js": "/OnlineStore/static/js/main.a77517e0.js",
+    "static/js/787.a663bc8e.chunk.js": "/OnlineStore/static/js/787.a663bc8e.chunk.js",
+    "static/media/sneakers.png": "/OnlineStore/static/media/sneakers.4fd41ec298171506853f.png",
+    "index.html": "/OnlineStore/index.html",
+    "main.f949be13.css.map": "/OnlineStore/static/css/main.f949be13.css.map",
+    "main.a77517e0.js.map": "/OnlineStore/static/js/main.a77517e0.js.map",
+    "787.a663bc8e.chunk.js.map": "/OnlineStore/static/js/787.a663bc8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f949be13.css",
+    "static/js/main.a77517e0.js"
+  ]
+}
